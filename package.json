@@ -1,0 +1,13 @@
+{
+  "name": "frontend_test",
+  "version": "0.0.1",
+  "description": "A simple frontend test for Telescope Innovations",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^13.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./node_modules/http-server/bin/http-server public/"
+  }
+}
